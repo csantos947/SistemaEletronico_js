@@ -1,0 +1,35 @@
+<!-- 
+Desenvolvidor por: Camila Santos
+Data: 20/02/2020
+Processo Seletivo: Sistema de Caixa Eletrônico
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sistema de Caixa Eletrônico - Processo Seletivo</title>
+	<!-- Adicionando estilos no html-->
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Adicionando funções(javascript) no html-->
+	<script type="text/javascript" src="js/calculo.js"></script>
+	<!--Inserindo o logo da SynapCom na favicon da Página -->
+	<link rel="shortcut icon" href="https://ecommerceindex.org/files/members//synapcom/synapcom-1522783907.jpg" />
+</head>
+<body>
+	<div id="CaixaBranca">
+		<img src="https://anymarket.com.br/wp-content/uploads/2018/07/logo-synapcom-1024x223.png">	
+		<div id="CaixaCampos">
+			<label id="candidata">Desenvolvido por: Camila Santos em 20/02/2020<br>
+				Processo Seletivo - SynapCom (Sistema Eletrônico)<br>
+				Linguagem: Javascript.
+			</label>
+			<p>Digite o valor do Saque:</p>
+			<!--Valor digitado pelo usuário-->
+			<input type="text" name="" id="valor_saque"><br>
+			<button type="button" id="Caixa" onclick="Caixa()">Enviar</button>
+			<button type="button" id="Limpar" onclick="Limpar()">Limpar</button>
+			<div id="texto"></div>
+		</div>
+	</div>
+</body>
+</html>

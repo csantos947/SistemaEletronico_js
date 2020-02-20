@@ -1,0 +1,76 @@
+/* 
+Desenvolvidor por: Camila Santos
+Data: 20/02/2020
+Processo Seletivo: Sistema de Caixa Eletrônico
+*/
+
+/*Inserindo blackground e definindo tamanho*/
+body{
+	margin:0px 0px 0px;
+	background-image: url('https://vendermaisonline.com.br/wp-content/uploads/2018/12/bg-portfolio.jpg');
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-color: #1C1C1C;
+}
+
+/*Inserindo caixa de texto e definindo tamanho*/
+#CaixaBranca{
+	width: 393px;
+	height: 360px;
+	background-color: #fff;
+	border-radius: 5%;
+	margin-left: 37%;
+	margin-top: 15%;
+	box-shadow: 5px 5px 5px #363636;
+}
+
+/*Definindo tamanho da Logo SynapCom*/
+#CaixaBranca img {
+	margin-top: 23px;
+	margin-bottom: 10px;
+	margin-left: 24%;
+	width:189px;
+	height: 48px;
+}
+
+/*Definindo tamanho do campo*/
+#CaixaCampos{
+	-webkit-margin-top-collapse: discard;
+	margin-top: 50px;
+	margin: 50px;
+}
+
+/*Definindo propriedade no paragrafo*/
+#CaixaCampos p{
+	font-family: "monospace";
+	font-size: 14pt;
+	margin-top: 3px;
+}
+
+/*Definindo tamanho da fonte na label*/
+label {
+	font-size: 14px;
+}
+
+
+/*Definindo tamanho do input*/
+#CaixaCampos input{
+	margin-bottom: 16px;
+	width: 253px;
+	border-radius: 7%;
+	box-shadow: 5px 5px 5px #808080;
+}
+
+/*Definindo tamanho do button*/
+#CaixaCampos button {
+	width: 88px;
+	height: 33px;
+	background-color: #adadad;
+}
+
+/*Definindo tamanho da caixa de texto que retorna-rá as informações*/
+#texto {
+	margin-top: 8px;
+	font-size: 12pt;
+	font-family: "monospace";
+}
